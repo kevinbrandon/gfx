@@ -1,21 +1,24 @@
 {
-	"name": "gfx",
-	"version": "0.1.0-dev",
+	"name": "dojo-<< package-name >>",
+	"description": "<< DESCRIPTION GOES HERE >>",
+	"keywords": [
+		"dojo",
+		"dojo2"
+	],
+	"authors": [
+	],
+	"main": "main.js",
+	"homepage": "http://dojotoolkit.org/",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/dojo/<< package-name >>.git"
+	},
 	"dependencies": {
-		"dojo": ">=1.9.1",
-		"dijit": ">=1.9.1",
-		"requirejs": "2.1.x",
-		"dcl": "1.1.x",
-		"decor": "0.2.0-dev",
-		"dcolor": "0.1.x",
-		"dbidi": "0.1.x",
-		"dpointer": "0.1.x"
 	},
 	"ignore": [
-		".jshintrc",
-		".gitattributes",
-		".travis.yml",
-		"tests",
-		"CONTRIBUTING.md"
-	]
+		".*",
+		"tests"
+	],
+	"license": [ "BSD-3-Clause" ],
+	"moduleType": [ "amd" ]
 }
